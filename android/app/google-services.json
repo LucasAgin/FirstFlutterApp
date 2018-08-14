@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "782319342188",
+    "firebase_url": "https://flutterproject-5064e.firebaseio.com",
+    "project_id": "flutterproject-5064e",
+    "storage_bucket": "flutterproject-5064e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782319342188:android:6721063cdfb38f34",
+        "android_client_info": {
+          "package_name": "com.SkySailSoftware.FlutterApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782319342188-fv5dhdc812ahvc128es2np755jhnt8qc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV9cWfDN9Dz0N92WuY4ov0ElfYtwlTmUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

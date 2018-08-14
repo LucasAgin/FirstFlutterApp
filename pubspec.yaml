@@ -2,6 +2,7 @@ name: first_project
 description: A new Flutter project.
 
 dependencies:
+  cloud_firestore: ^0.7.4 
   flutter:
     sdk: flutter
   firebase: ^4.0.0

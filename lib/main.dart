@@ -4,6 +4,7 @@
 
 // You can read about packages here: https://flutter.io/using-packages/
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 // You can use a relative import, i.e. `import 'category.dart;'` or
 // a package import, as shown below.
@@ -36,16 +37,13 @@ class UnitConverterApp extends StatelessWidget {
             IconButton(
                 icon: Icon(Icons.add),
                 onPressed: (){
-                  print(this);
+                  Firestore.instance.collection('test').document('testdocument').setData({'newtest':'data'});
                 })
           ],
         ),
         body: Column(
           children: <Widget>[
-            Center(
-              // TODO: Determine what properties you'll need to pass into the widget
-              child: Category.regular(),
-            ),
+             Category.regular(),
           ],
         )
 
